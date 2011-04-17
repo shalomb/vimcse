@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomSearchEngine id="iv4-w8mhmdc" creator="010944265582273573158" version="1.0" volunteers="true" keywords="vi vim gvim editor" language="en" visible="true" encoding="UTF-8">
+  <Title>vim</Title>
+  <Description>Resources for the VIMproved editor. Documentation, solutions to problems, configuration tips, examples, scripts, plugins, vimtweets, screencasts, github repositories and many more goodies.</Description>
+  <Context>
+    <Facet>
+      <FacetItem>
+        <Label name="howto" mode="BOOST" weight="0.3">
+          <Rewrite>+tip (tip|howto)</Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>howto</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="faqs" mode="FILTER" weight="0.6">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>faqs</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="multimedia" mode="FILTER" weight="0.4">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>multimedia</Title>
+      </FacetItem>
+    </Facet>
+    <Facet>
+      <FacetItem>
+        <Label name="cheats" mode="BOOST" weight="0.2">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>cheats</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="manual" mode="FILTER" weight="0.9">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>manual</Title>
+      </FacetItem>
+    </Facet>
+    <Facet>
+      <FacetItem>
+        <Label name="reference" mode="FILTER" weight="0.8">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>reference</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="scripts" mode="FILTER" weight="0.4">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>scripts</Title>
+      </FacetItem>
+    </Facet>
+    <Facet>
+      <FacetItem>
+        <Label name="documentation" mode="FILTER" weight="1">
+          <Rewrite></Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>documentation</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="groups" mode="FILTER" weight="0.1">
+          <Rewrite>(vim|gvim)</Rewrite>
+          <IgnoreBackgroundLabels>false</IgnoreBackgroundLabels>
+        </Label>
+        <Title>groups</Title>
+      </FacetItem>
+    </Facet>
+    <BackgroundLabels>
+      <Label name="_cse_iv4-w8mhmdc" mode="FILTER" weight="1" />
+      <Label name="_cse_exclude_iv4-w8mhmdc" mode="ELIMINATE" weight="1" />
+    </BackgroundLabels>
+  </Context>
+  <LookAndFeel nonprofit="false" custom_theme="false" text_font="Arial, sans-serif" url_length="full" element_branding="show">
+    <Logo url="http://vimres.googlepages.com/vim.png" destination="http://vim.org" height="47" />
+    <Colors url="#008000" background="#FFFFFF" border="#FFFFFF" title="#0000CC" text="#000000" visited="#0000CC" title_hover="#0000CC" title_active="#0000CC" />
+    <Promotions title_color="#0000CC" title_visited_color="#0000CC" url_color="#008000" background_color="#FFFFFF" border_color="#336699" snippet_color="#000000" title_hover_color="#0000CC" title_active_color="#0000CC" />
+    <SearchControls input_border_color="#BCCDF0" button_border_color="#666666" button_background_color="#CECECE" tab_border_color="#E9E9E9" tab_background_color="#E9E9E9" tab_selected_border_color="#FF9900" tab_selected_background_color="#FFFFFF" />
+    <Results border_color="#FFFFFF" border_hover_color="#FFFFFF" background_color="#FFFFFF" background_hover_color="#FFFFFF" />
+  </LookAndFeel>
+  <AdSense />
+  <EnterpriseAccount />
+</CustomSearchEngine>
